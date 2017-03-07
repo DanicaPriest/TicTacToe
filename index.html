@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link href="https://fonts.googleapis.com/css?family=Emilys+Candy|Sunshiney" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body><button id="restart">Restart &nbsp <i class='fa fa-refresh'></i> </button>
+  <h1 id="title" class="text-center"> Tic Tac Toe </h1>
+  <div class="modal fade" id="playerOptions" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Player Options</h4>
+        </div>
+        <div class="modal-body">
+          <p>Do you want a One player or Two player game?</p><button id="onePlayer" data-dismiss="modal">One Player </button><button id="twoPlayer"  data-dismiss="modal"> Two Player</button>
+        </div>
+         
+        
+      </div>
+      
+    </div>
+  </div>
+  <!-- Modal 2 -->
+<div class="modal fade" id="playerNames" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Player Settings</h4>
+        </div>
+        <div class="modal-body">
+          <p><strong>What are your Names?</strong></p><span class="it">Player 1: &nbsp</span><input type="text" id="player1name"></input><form id="xOs"><input id="xs" type="radio" name="xos" value="cross" >Crosses (Xs)</input>
+        <input id="os" type="radio" name="xos" value="naught">Noughts (Os)<br><br> </input></form><span class='it'>Player 2: &nbsp</span><input id="player2name"> </input>
+        </div>
+        <div class="modal-footer"><button type="button" class="back " data-dismiss="modal" id="back1"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> &nbsp Back &nbsp</button>
+          <button type="button" class="next" data-dismiss="modal" id="next1">&nbsp Next &nbsp<i class="fa fa-long-arrow-right" ></i></button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!-- Modal 3 -->
+<div class="modal fade" id="playerName" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <h4 class="modal-title">Player Settings</h4>
+        </div>
+        <div class="modal-body">
+          <p><strong>What is your Name?</strong></p><input type="text" id="oneplayername"> </input><br><br><form id="xOs1"><input id="xs" type="radio" name="xos1" value="crosses" >Crosses (Xs)</input>
+        <input id="os" type="radio" name="xos1" value="naughts">Noughts (Os) </input></form><br>
+  <p><strong> Game Difficulty:</strong></p> 
+  <button id="easy">Easy</button>
+  <button id="medium">Medium</button>
+  <button id="hard">Hard</button>
+        </div>
+        <div class="modal-footer"><button type="button" class="back" data-dismiss="modal" id="back2"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> &nbsp Back &nbsp</button>
+          <button type="button" class="next" data-dismiss="modal" id="next2"> &nbsp Next &nbsp<i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!-- Modal 4 -->
+<div class="modal fade" id="xSelection" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" id="xContent">
+        <div class="modal-header">
+          <h4 class="modal-title" id="xTitle">Pick Your X:</h4>
+        </div>
+        <div class="modal-body">
+          <img id="leftShark" src="http://i.imgur.com/rMsGafK.gif"/><img id="plain" src="http://www.andreaformann.com/images/close.png"/><img id="pinkX" src="https://media.giphy.com/media/znmIFim3gj45O/giphy.gif"/><img id="xmen" src="http://orig07.deviantart.net/46ba/f/2015/358/4/5/x_men_s_wolverine__transparent_background__by_camo_flauge-d9lckx0.png"/><img id="wood" src="http://3.bp.blogspot.com/-Wg4J4-gniks/Tk__HO6-C-I/AAAAAAAACJo/7iUStni3fFE/s1600/1Capital-Letter-X-Wood.png"/><img id="redPaint" src="http://www.freeiconspng.com/uploads/x-png-18.png"/><img id="lilac" src="http://handmadefont.com/wp-content/uploads/2013/10/Lilac-font-letter-X.png"/><img id="galaxy" src="https://68.media.tumblr.com/2dec4c9d70611c0d2d3de56abfa7825b/tumblr_nr8j1mfFdn1uxtzn8o1_500.gif"/><img id="opal" src="https://s-media-cache-ak0.pinimg.com/originals/ca/1c/98/ca1c989c4fc914c9e41b62092cbbab28.gif"/><img id="tiger" src="http://data.whicdn.com/images/70919111/superthumb.png"/><img id="water" src="https://redlipslie.files.wordpress.com/2015/09/tumblr_n3n7sgxk1g1r0feozo1_500.gif"/><img id="everything" src="http://lascuolaopensource.xyz/XYZ/img/x.gif"/><img id="lava" src="https://s-media-cache-ak0.pinimg.com/originals/a3/36/19/a33619bd93e4d6294ee0b993fc957192.gif"/><img id="snow" src="http://www.clker.com/cliparts/B/o/o/9/4/c/fender-cross-hi.png"/><img id="bmo" src="http://static.tumblr.com/688c267d7b2064aec09c7a07404abe4e/mxwml2c/3tpn1j5r5/tumblr_static_bmo.gif"/><img id="flowers" src="http://static.tumblr.com/9d24fab2d935c253b2685b7a2845c27d/wwt9wry/ZOwneunj9/tumblr_static_ek7c3gxhxx4wokkgskwgcoc0s.gif"/><img id="sword" src="http://www.clker.com/cliparts/J/R/z/Y/h/6/cross-swords-hi.png"/><img id="fancy" src="http://www.gifmania.co.uk/Animated-Letters-Animated-Gifs/Animated-Gothic-Letters/Decorated-Alphabet/decorated-x-letter-16528.gif"/><img id="candy" src="http://www.gifmania.co.uk/Animated-Letters-Animated-Gifs/Animated-Emoticons-Letters/Alphabet-Colorful-Emoticons/colorful-emoticon-x-capital-letter-18124.gif"/><img id="gold" src="http://etc.usf.edu/presentations/extras/letters/theme_alphabets/20/34/x-400.png"/><img id="flash" src="http://www.walkaboutcrafts.com/freegifts/alphabetimages/x.gif"/><img id="jellyb" src=http://2.bp.blogspot.com/-5eAMS56EhUE/Tn6aCc8uUyI/AAAAAAAAADc/PX3kvM_J28g/s320/png-JB-Capital-Letter-X.png
+/><img id="spacex" src="https://s-media-cache-ak0.pinimg.com/originals/59/e8/6e/59e86e8eaab1281de17175ac74f0d476.png"/><img id="tea" src="http://handmadefont.com/wp-content/uploads/2016/05/teacups-font-letter-X.png"/><img id="paint" src="http://handmadefont.com/wp-content/uploads/2015/07/PaintMelt-font-letter-X.png"/><img id="ice" src="https://etc.usf.edu/presentations/extras/letters/theme_alphabets/18/34/X-150.png"/><img id="purple" src="http://www.odonto.com.br/favicon.ico"/>  <img id="skull" src="https://img.clipartfest.com/2c94891e857be009427d5664e0506dc9_skull-crossbones-clothing-baby-skull-and-crossbones-clipart_400-400.png"/>      </div>
+        <div class="modal-footer"><button type="button" class="back" data-dismiss="modal" id="back3"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> &nbsp Back &nbsp</button>
+          <button type="button" class="next" data-dismiss="modal" id="next3">&nbsp Next &nbsp<i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!-- Modal 5 -->
+<div class="modal fade" id="oSelection" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" id="oContent">
+        <div class="modal-header">
+          
+          <h4 id="oTitle" class="modal-title">Pick Your O:</h4>
+        </div>
+        <div class="modal-body">
+          <img id="lsp" src="https://media.giphy.com/media/P7De1qUo7Z25W/giphy.gif"/><img id="plaino" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Letter_o.svg/600px-Letter_o.svg.png"/><img id="load" src="http://www.starship42.com/load.gif"/><img id="xmas" src="http://2.bp.blogspot.com/-oxVtX_ndV_Q/Trli3nSlbKI/AAAAAAAACBw/Bz5rf6FLdik/s1600/CAPITAL-LETTER-O.png"/><img id="blob" src="http://rs1131.pbsrc.com/albums/m560/ieatyouyumm/loversatnight.gif~c200"/><img id="woodo" src="http://1.bp.blogspot.com/-wQoPsgPVS7U/Tk_8IfV8lpI/AAAAAAAACJE/DryLcVByPTk/s320/1Capital-Letter-O-Wood.png"/><img id="rose" src="https://4.bp.blogspot.com/-P6SkuiWNn58/V00qW7I5bvI/AAAAAAABfdg/yCe_uz3S65kq0K4MagI4DKe2md1E8M7LACLcB/s200/peony-flower-animation-gif-clr.gif"/><img id="lotr" src="http://vignette1.wikia.nocookie.net/lotr/images/1/1d/One_ring_transparent.png/revision/latest?cb=20120830130253"/><img id="hands" src="http://www.okclipart.com/img14/gslevdlxnnnbmbjamkgz.png"/><img id="orb" src="https://d1v8u1ev1s9e4n.cloudfront.net/54e691a15ccacf270e4ae7d0"/><img id="obama" src="http://vignette2.wikia.nocookie.net/logopedia/images/9/98/Obama_O.png/revision/latest?cb=20100724092050"/><img id="roses" src="http://3.bp.blogspot.com/-8lS1YthduYw/TntZGFaZccI/AAAAAAAADqk/nSlrMJDpRx4/s1600/CAPITAL-LETTER-O.png"/><img id="jelly" src="http://3.bp.blogspot.com/-XElM35ERl-I/Tn6ZupWXEhI/AAAAAAAAAC4/hexEpV2YTvM/s320/png-JB-Capital-Letter-O.png"/><img id="sail" src="http://images.clipartpanda.com/lifesaver-clipart-lifesaver-clip-art1.png"/><img id="donut" src="http://33.media.tumblr.com/007d4c735f373784f1f72084fc8f1d73/tumblr_n085t5GHHj1s6294bo1_400.gif"/><img id="record" src="http://www.50thirdand3rd.com/wp-content/uploads/2014/08/photo.png"/>
+          <img id="glitter" src="https://68.media.tumblr.com/213d75c22e19a52fd46db4d23b10788f/tumblr_nxysjeiIbZ1ubiseso1_500.gif"/><img id="stars" src="http://etc.usf.edu/presentations/extras/letters/theme_alphabets/23/25/O-300.png"/><img id="happy" src="http://www.gifmania.co.uk/Animated-Letters-Animated-Gifs/Animated-Alphabet/Letters-O/o-letter15-27209.gif"/><img id="space" src="https://www.cirquedusoleil.com/las-vegas/assets/img/shows/o_logo.png"/><img id="shield" src="http://www.freepngimg.com/thumb/shield/20-old-shield-png-image-picture-download-thumb.png"/><img id="fall" src="http://etc.usf.edu/presentations/extras/letters/theme_alphabets/09/25/O-400.png"/><img id="usa" src="http://2.bp.blogspot.com/-pw-wogEnbTw/U25btTCea_I/AAAAAAACco0/-exmHgQLX50/s1600/GE-CAPITAL-LETTER-O.png"/><img id="lifesaver" src="http://www.life-savers.com/www/img/bg_objects/hard_candies_right_small.png"/><img id="onion" src="http://handmadefont.com/wp-content/uploads/2013/09/Onions-font-letter-O.png"/><img id="eye" src="http://img14.deviantart.net/a1e5/i/2015/109/e/3/blue_eye3_saved_as_png_to_preserve_transparency_by_shadowprince14-d8qbhft.png"/><img id="bagel" src="http://icongal.com/gallery/image/18621/donut.png"/><img id="pepper" src="http://handmadefont.com/wp-content/uploads/2014/06/redpaprika-font-letter-O-200x200.png"/>
+        </div>
+        <div class="modal-footer"><button type="button" class="back" data-dismiss="modal" id="back4"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> &nbsp Back &nbsp</button>
+          <button type="button" class="next" data-dismiss="modal" id="twoPlayerStart">Start Game</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!-- win Modal -->
+  <div class="modal fade" id="winModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div id='winContent' class="modal-content">
+        <div class="modal-header">
+          
+          <h4 id="winTitle" class="modal-title">It's a Tie</h4>
+        </div>
+        <div id="winPic" class="modal-body">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="next" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+<div id="scoreboard" class="container">
+  <div class="text-left col-sm-4" id="player1Score"></div>
+  <div id="gameNum" class="text-center col-sm-4">Games Played: 0</div>
+  <div id="player2Score" class="text-right col-sm-4"></div>
+  </div>
+  
+<table id="gameBoard">
+  <tr>
+    <td id="g1" onClick= "makeMove('g1')" class=""></td>
+    <td id="g2" onClick= "makeMove('g2')" class=""></td>
+    <td id="g3" onClick= "makeMove('g3')" class=""></td>
+  </tr>
+   <tr>
+    <td id="g4" onClick= "makeMove('g4')" class=""></td>
+    <td id="g5" onClick= "makeMove('g5')" class=""></td>
+    <td id="g6" onClick= "makeMove('g6')" class=""></td>
+  </tr>
+   <tr>
+    <td id="g7" onClick= "makeMove('g7')" class=""></td>
+    <td id="g8" onClick= "makeMove('g8')" class=""></td>
+    <td id="g9" onClick= "makeMove('g9')" class=""></td>
+  </tr>
+  </table>
+  <div  > <h1 id="playerTurn" class="text-center"></h1> </div>
+<div id = 'credit'><a href='https://copepen.io/DanicaPriest/#'>By Danica Priest &nbsp</a></div>
+       </body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,204 @@
+body{
+  background-image: url(http://s8.favim.com/610/150527/3d-aesthetic-black-blackandwhite-Favim.com-2768739.png);
+  background-size: 100% 100%;
+  --cross-image:url(https://media.giphy.com/media/3o85xBH1NjrRfa8kPm/giphy.gif);
+  --naught-image: url(https://media.giphy.com/media/P7De1qUo7Z25W/giphy.gif);
+}
+#g1, #g2, #g3{
+  border-top: 3px solid rgba(255, 255, 255, 0);
+}
+#g1, #g4, #g7{
+  border-left: 3px solid rgba(255, 255, 255, 0);
+}
+#g8, #g9, #g7{
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+#g3, #g6, #g9{
+  border-right: 3px solid rgba(255, 255, 255, 0);
+}
+.back{
+ margin-right:55% !important;
+  background: rgba(255, 255, 255, 0.7);
+  font-size: 1.3em;
+}
+#back3, #back4{
+  margin-right: 70% !important;
+}
+.next{
+  float:right;
+  background: rgba(255, 255, 255, 0.7);
+  font-size:1.3em;
+}
+.back:hover, .next:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+#oContent{
+  width:719px;
+  margin-left: -95px;
+}
+#winContent{
+  width:300px;
+  
+}
+#winPic{
+  height:200px;
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+#xContent{
+  width:740px;
+  margin-left: -95px;
+}
+table{
+  height: 400px;
+  width:400px;
+  margin:auto;
+  background:rgba(255,255,255, 1);
+  
+}
+td{
+  border: 3px solid black;
+}
+#oTitle, #xTitle{
+  align: left;
+}
+.cross{
+  
+  background-image: var(--cross-image);
+ 
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+.naught{
+  
+   background-image: var(--naught-image);
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+p, #easy, #medium, #hard{
+  font-size: 1.5em;
+}
+form, .it{
+  font-size: 1.2em;
+}
+h1, a{
+  
+  padding:10px;
+text-shadow: 5px 5px 10px  white, -5px -5px 10px  white, 5px 5px 10px  white, -5px -5px 10px  white;
+}
+h1, .modal-title, button, #scoreboard, p, form, .it, a{
+  font-family:'Sunshiney', cursive;
+  color: black;
+}
+#credit{
+  float:right;
+  font-size:1.2em;
+  color:grey;
+  margin-top:-20px;
+  padding:5px;
+  
+}
+#title{
+  margin-top:-70px;
+  font-size: 3em;
+  font-family: 'Emilys Candy',
+    cursive;
+  text-shadow: -2px -1px 0px violet, 5px 1px 2px white;
+  
+}
+input{
+  padding:5px;
+}
+img{
+  height:95px;
+}
+#scoreboard{
+  height:60px;
+  width:750px;
+  margin:auto;
+  font-size: 1em;
+}
+#player1Score, #player2Score, #gameNum{
+  background: rgba(255, 255, 255, 0.8);
+  display: inline;
+  float:left;
+  margin-top:15px; 
+  font-size: 1.3em;
+  
+  text-shadow: 2px 2px 10px  white, -2px -2px 10px  white,2px 2px 10px  white, -2px -2px 10px  white;
+}
+#restart:hover, #onePlayer:hover, #twoPlayer:hover, #easy:hover, #medium:hover, #hard:hover{
+  box-shadow: inset 3px 11px 27px 10px rgba(0, 0, 10, 0.4);
+}
+img:hover, td:hover{
+  box-shadow: inset 3px 3px 10px 10px rgba(0, 0, 10, 0.06);
+}
+#restart{
+  margin-left:50px;
+  margin-top:50px;
+  font-size:1.5em;
+}
+#twoPlayer, #onePlayer{
+  font-size: 1.5em;
+  margin:5px;
+  text-shadow: 4px 4px 10px  rgba(255,255,255,1), -4px -4px 10px  rgba(255,255,255,1);
+}
+.modal-content{
+  background: none;
+}
+.modal-title{
+  color:black;
+  text-shadow: 4px 4px 10px  rgba(255,255,255,1), -4px -4px 10px  rgba(255,255,255,1);
+  font-size: 2em;
+}
+.modal-body{
+  background:white;
+}
+.modal-backdrop{
+  background-color:black;
+  opacity:.95 !important;
+  
+}
+.modal-footer, .modal-header, #twoPlayer, #onePlayer, #restart, #easy, #medium, #hard{
+  background:rgba (255,255,255,0.01);
+  border: 2px outset rgba (255, 255, 255, 0.5);
+  background-image: url(
+http://img.7te.org/images/570x363/pastel-galaxy-wallpaper-tumblr-lilac-pastel-clouds-by-60278.jpg
+  );
+  background-size: 100%
+    ;
+ /* box-shadow: inset 3px 11px 27px 10px rgba(255,255,255,0.68);*/
+  
+}
+
+/*to do
+
+animation for player turn alerts
+design
+  board
+  background
+  
+
+
+
+
+
+done-
+design
+   text
+   modals
+win animation
+computer player hard
+reset button
+  player turn after setting end
+choose cross/naught image
+decide player turn randomly
+computer player easy game
+leader scoreboard
+determine how to spot a win
+start settings- pick game options
+  done-1 vs 2 player
+  easy vs hard if 1 player
+  done-pick player names
+  xs or os
+computer player medium
