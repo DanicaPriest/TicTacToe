@@ -305,7 +305,7 @@ $("#shield").click(function(){
   $("#oSelection img").css("border", "none")
   $("#shield").css("border","2px solid black")
 });$("#space").click(function(){ oName = 'Gondola'
-  document.body.style.setProperty("--naught-image", "url(https://www.cirquedusoleil.com/las-vegas/assets/img/shows/o_logo.png)")
+  document.body.style.setProperty("--naught-image", "url(https://upload.wikimedia.org/wikipedia/en/4/40/O_logo.png)")
   $("#oSelection img").css("border", "none")
   $("#space").css("border","2px solid black")
 });$("#happy").click(function(){oName = 'Sesame Street'
