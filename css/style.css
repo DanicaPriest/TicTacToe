@@ -33,7 +33,7 @@ body{
   background: rgba(255, 255, 255, 0.1);
 }
 #oContent{
-  width:719px;
+  width:700px;
   margin-left: -95px;
 }
 #winContent{
@@ -46,7 +46,7 @@ body{
   background-repeat: no-repeat;
 }
 #xContent{
-  width:740px;
+  width:700px;
   margin-left: -95px;
 }
 table{
