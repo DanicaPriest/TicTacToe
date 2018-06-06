@@ -9,7 +9,7 @@ var onePlayer = false;
 var player1Cross = false;
 var player1Turn = true;
 var xName = "Left Shark";
-var oName = "Lumpy Space Princess";
+var oName = "The One Ring";
 var player1Name = oName;
 var player2Name = xName;
 var easyGame = false;
@@ -18,7 +18,7 @@ var hardGame = false;
 var spaces = ['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8', 'g9'];
 var hS;
 var cross = "https://i.imgur.com/rMsGafK.gif";
-var naught = "https://media.giphy.com/media/eQc0a2uGQhhw4/giphy.gif";
+var naught = "https://lh3.googleusercontent.com/FSKuv-KhyhK7JSaL7CyFU5KdSPfgscLC036A49mbtjvHDGk06KX2aoR8AEqioEL06czsKRINBeV_o4fqxs8sl6o2kfTJFC3ZnLEXJ0DljRRwD7IiNPNBT0bB79jSQuGcw4lX2Prm4h_L8jrxydyyOo11ARhWCdsFtKONsK8rL7OGEf4BEXF7-Su1WSEKL-Uof3CykivPMnFckBhrot953o0EyBF88GhvT1l1uA6MnHTsXerLt02TwfxwnmeTT2TxOo-bZzg6jT07HetM_nAMbeCBU1FCEE7GiJdOZXRn0kNm47EknJjKHgJ1UGufHoaqAT5yKiNpYkEWoV8wcrlI2tjP2v-0s18D61bCk5V3Vn3TTYH2ZgyKLBvCbxv_5IL5Y7bqdDzI4lDPquaCbMCYPb-5_vjOFRHn-PNXhadF3CXtQduGfahb6OWrHBsxsmjN7yUQ50s70pKxzoDc4LDoV47qa-Y66sYuNFj83lk00UJSSoCM_Epsul57XryqXNWT09ASHo6tAiPFT7r5BFSQApM7K_EPyLirvfyNeo9LMIuJZm4R-4_YwvOr8z3QOpAdBxamWIT5CEjF58dTghFW_kMmpWsFFk_2eBaYIbD_ruGGfKSPkZmXh4KY3h4bpvgd4yi3iVw3h_NgPCmp4U7_hLbS-9p3wQefcg=w200-h173-no";
 
 /* settings modals jquery*/
 
