@@ -9,7 +9,7 @@ var onePlayer = false;
 var player1Cross = false;
 var player1Turn = true;
 var xName = "Left Shark";
-var oName = "The One Ring";
+var oName = "Lumpy Space Princess";
 var player1Name = oName;
 var player2Name = xName;
 var easyGame = false;
@@ -17,8 +17,8 @@ var mediumGame = false;
 var hardGame = false;
 var spaces = ['g1', 'g2', 'g3', 'g4', 'g5', 'g6', 'g7', 'g8', 'g9'];
 var hS;
-var cross = "https://lh3.googleusercontent.com/xM5Jb4DFpZt48NvATNtITkReOVvdeWmoA6DqrdbbAjV_0WJyFG9Gy0oolo0p7e7rtgnJCRcfTI_2CtAPc18DD5VLsTORBIptqPdg7A69nTmFB-6GdiSSK3i6zCWWKw4CSqRkkdZRt2dvR4wFl7jBKj0AbV9VNQWiDwZlLAEjtEKDjdH5bDAxxwl1Y-cLdoSH-fiHtNJGD_NoilBvdwexb14Q67-pk5IqP2s0viguG6bM9ooCKrIep8YUZ_P7fdNAs0znt_Rx-4fYyVeR5IyZ-JwNF6XlkaCWYdNz_OmbwtWCFrTPgP_iGssShirnzY9aJQ6Fl4Ywv5T9Mx-Lo1-CH8HKN7q9xphVsqkBZpns7idCnVhGuXzrp4aGY5H_y-1DDLvRmJhiJa-FguUMxbDA8Jp0ZLaY3XInO7sw-hBF4bCNlimN6imOwe2PD0yJjjkAO9WOHxEJmUW3PymJ49lGy5Pla6pRqNZZ3dXrRX3dn7AfWJXIJp9KAioWeVPumEBQhsRO3NJdAzkow6DvyMo2CAhXhO4LVdBI_6WafL_g2bNJn5YRco0RC3xVCuhhA_xfpLPu7pmo3OfVbklJu2h69n7mNUR6ziE7mQyfujgs=s300-no";
-var naught = "https://lh3.googleusercontent.com/FSKuv-KhyhK7JSaL7CyFU5KdSPfgscLC036A49mbtjvHDGk06KX2aoR8AEqioEL06czsKRINBeV_o4fqxs8sl6o2kfTJFC3ZnLEXJ0DljRRwD7IiNPNBT0bB79jSQuGcw4lX2Prm4h_L8jrxydyyOo11ARhWCdsFtKONsK8rL7OGEf4BEXF7-Su1WSEKL-Uof3CykivPMnFckBhrot953o0EyBF88GhvT1l1uA6MnHTsXerLt02TwfxwnmeTT2TxOo-bZzg6jT07HetM_nAMbeCBU1FCEE7GiJdOZXRn0kNm47EknJjKHgJ1UGufHoaqAT5yKiNpYkEWoV8wcrlI2tjP2v-0s18D61bCk5V3Vn3TTYH2ZgyKLBvCbxv_5IL5Y7bqdDzI4lDPquaCbMCYPb-5_vjOFRHn-PNXhadF3CXtQduGfahb6OWrHBsxsmjN7yUQ50s70pKxzoDc4LDoV47qa-Y66sYuNFj83lk00UJSSoCM_Epsul57XryqXNWT09ASHo6tAiPFT7r5BFSQApM7K_EPyLirvfyNeo9LMIuJZm4R-4_YwvOr8z3QOpAdBxamWIT5CEjF58dTghFW_kMmpWsFFk_2eBaYIbD_ruGGfKSPkZmXh4KY3h4bpvgd4yi3iVw3h_NgPCmp4U7_hLbS-9p3wQefcg=w200-h173-no";
+var cross = "https://i.imgur.com/rMsGafK.gif";
+var naught = "https://media.giphy.com/media/eQc0a2uGQhhw4/giphy.gif";
 
 /* settings modals jquery*/
 
@@ -243,40 +243,40 @@ $("#next3").click(function(){
   $("#oSelection").modal({backdrop: "static"});
 });
 $("#lsp").click(function(){
- oName = 'Lumpy Space Princess'; document.body.style.setProperty("--naught-image", "url(https://media.giphy.com/media/P7De1qUo7Z25W/giphy.gif)")
+ oName = 'Lumpy Space Princess'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/eNMe6J3H5LZQwRIGbW6EpxKBxvcu5tt5LeuKGp-o3nW4dfsncRzdGR5fdxjl-3UNTAcI7MJeFt2v2YyjLdc3I_BVBQPMDVlLgrj6ymggNaCtPLSU24cb-0lxpSDEGEKhGinF5AcyAUjNAvOaqS3IkHBwwq1OgmJVvW514NxANMha4v-IbBWRk2EAiODJBSbqJ3Ua_tZCMkCakS0o0Z7gziWi7yfvla2UkBni8OttQMJ9k-2TUSrGpWFIhF50swque_IahiNmiORYhWfl615kjuPjnS-ozMHFpNIEngrM945AwqU6EyZLpUhHqQlstYm7Q0j1rKHXhqyX_z7DE9T0P4Z5tBtyHPjB73dE5Fek8vk-Zu6OYsmJAk6xoIkHfqLdiTT5ntFnsQHAP5wartjDJ4eMFR6ZPvIld5SALFSt3w8BaEPC-bpaYZ0LDVPQo1Ow2tKYMURXc12cJMndNnGsj3NoYGcs5wb9Qk1vdLNAbc0FGEGeQnmDMaD2i4Ra1xW10olM3Yb2mK4xBvUb--HHJBBhlZKxVfwwQWze2wBaaqsUscBYsWXWpBmjG5JU3l4QJ1ELSCY5LDGWFtTmO9o0s5GC3GVniqgd152hlMHCkYqCdwynM3EoVlS3-CLAZLtD9JteQF5XgjakzuS0QXVkeaLvtx1_j8ALsg=s480-no)")
   $("#oSelection img").css("border", "none")
   $("#lsp").css("border","2px solid black")
 });
 $("#plaino").click(function(){
- oName = 'Team O'; document.body.style.setProperty("--naught-image", "url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Letter_o.svg/600px-Letter_o.svg.png)")
+ oName = 'Team O'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/3sYfqMW-JulLOzEcudqTjMZxjHGe8Bm77vxS01UX-k1hfGg7YN40VMIn6rYGdsulo0pxI7sRoPEf1bUEE_1kUO9GHdZ2QTEw3djAowGIkhqkkoiOCUHuc2XlpYH7hnmsu5Zq5LrhRA5cpvaaSWx6aFI3Rl-jZyt-QXRbFTuvwk4dOfX6Aei37mtFOEFEubRJzkh3FRQv1yuiMwi6nIMkvkv4LqcpZscJ99bxRfO5286mz2FIiAW7prZks_qASV8qQ1J9AzAEqlc3uNDOarlP1W3nkILJ8J5J_kHhmS4Q-A2Ymub-2OyTIa5CSg8ZlaiSzftEtUfmvd0LXGmtpHSW4L4e5tPNV7lSGzD1snjIEhY-RkhHw2RnjBqF6t0xScMi5TufRGGgOmd1pPouo_3431wmCO-uqacDN7tYRSBwS2UfhDd4gULHfpwfxu8RA4eXU8ruzVWJb1n8xuRT2D4YXStfaC9WSD_tP7pO_-alh0f2y7fJlzrqjQAlp1iEiVjwxbFrgQ2vJR2RT6cEMWFzvChwJP7XU5KgLhZmzdzNV0qutA7oKIy03o3yRoeIwYsUIPWqITxQ7Y0FobOJYm5UaIFoa3pjJRVrEpN4ggJ4BNipGfN1XqQBXpfVO_X7Xy0I_Mstr8wiydsP5xmQSffnz8X-u8DY2zznZQ=s600-no)")
   $("#oSelection img").css("border", "none")
   $("#plaino").css("border","2px solid black")
 });
 $("#load").click(function(){
- oName = "Loading"; document.body.style.setProperty("--naught-image", "url(http://www.starship42.com/load.gif)")
+ oName = "Loading"; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/pbErzXPUcDFSdjYO0Da8PsGGZfq3pfU4aO-2m1kUJx-gWHkntjuW2DMDbdv8c6l37LBqMlUeGwiX-pbS6t-HZBTadyB5V4bs-yK_oA-rBCBwI9inpq7QmhIMI54ZmMHVDAFA6QJ0caVoRrlmP-JNzCtqchl3RtV3BDequFJTPVKhQtGKFI7HZGDB1mWwNjBVa_oWseLKjgv1os1nmFT8FZwW60EzYjkgNZ9dEqBywME0QNSsf93EI4CP8BuJz4wc0z5KpQmJuOkgPuVFWhr8wvibm9nqnFGEgHoe-ET3r5TpMU-5WcAefXNnOD4MPY20E3CN1TJxR_0qPyoLBLzZslnW8b-cKo4hLrenCBcGJGU8PtGBohlZdkBMTkNPeAFOzOt4wfXIL4BxAJNqBUy5e690R5y8DvNLwtWDr8rdZBV46sC8bsOZmiw2hYZZBkdO8bv_NElewa9tmq1YhVXgL1Kw4m63Tj8J7jco0obtrvOPdL9Cms95NPr4Z4YQjbMZ4xGFuvbOn-8Ft6MR6c6YWMna7TCiiWJVwEN3ghr6BAW0sgEO3Alvc6uPdvV52FX55zLCl4gsuNUgn4IMJ9XIzBq9rWrQTrie74e8e2iksYjCdRFOzkDDFVwPR2ggMtMPCVWJLAjOua2T1_2tqkuO0NO_JhjajA03Hg=s200-no)")
   $("#oSelection img").css("border", "none")
   $("#load").css("border","2px solid black")
 });
 $("#xmas").click(function(){
- oName = 'Candy Cane'; document.body.style.setProperty("--naught-image", "url(https://2.bp.blogspot.com/-oxVtX_ndV_Q/Trli3nSlbKI/AAAAAAAACBw/Bz5rf6FLdik/s1600/CAPITAL-LETTER-O.png)")
+ oName = 'Candy Cane'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/6ehEHfvqf1yqN68SF2MTHYBxh534uQ58CEVL4oebe-rk4Ah_CRxhUNcCmoPcbUMxHh-fSYLeE6vR28RxKfY7qva1mQjCpPzrb80sS2gxw71JRzzVxHhqJAea0aAlzGQ6CWWninplhPHtnHzaKeJegVTZuyxmZbzgcwple64LzJc426r79WqTn3GX17bWpPGkX1L4WhPcZahUFrQlf0mpqqGSXKIwKRK2TH5RBGZj47cGJYuTfuY6ndG3XtcWVr8ChCFQFf6BZyPRIaMXPjtj7scGftqDmow69JLbABmqFhfsUi7un9sKpUupaCFqB4eDHeRXF0oqbLHGc6H21GHuCZjmmWd9W8PJPGuyz97UY1q6luXgfAmTkmbVTnIUH9_XWestQ0qjwGGjVFVnajgqKKyeHIetCWvrAn4_T6shbfw7hCfWikx-c1RsgXMBbahX6pWaWAgB6-LyZZebzZA4oLu_ToWnaJL39kSik13flbDx2eDIgJGQUB6Ep__mTyrISWj5uM3_1SztaD2J2Ml8bb5MVJkbhmXZSuliO719btXSgrFOrAJn7g16ohNU51u1D4FYSjU5sKCJIRRCUS5pKQOujrLGqa2uMxqGzbrBvAkpdcfGPnA7HT05IsQcEtK34RsGC3AhayJULt66NYMperCx-RTebYDBYw=s300-no)")
   $("#oSelection img").css("border", "none")
   $("#xmas").css("border","2px solid black")
 });
 
 $("#blob").click(function(){
- oName = 'Totoro'; document.body.style.setProperty("--naught-image", "url(http://rs1131.pbsrc.com/albums/m560/ieatyouyumm/loversatnight.gif~c200)")
+ oName = 'Totoro'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/9dMZ_LYDgXBFliSyqKyo5_QcEn17Xs9-tUff8H74sX_sXFaSjfShhpzrq1IBaI7IvQnUqH3JWihyS44XHdofCRZEbQjDZtjXgbuMT76r_T1wfFUnzaTfZsLxLl9AZsA8ogdr7zHBxsR2pkiKU3xuXukxeEc6Va18AOnJnZTyzsf0Q2dh_9Sg_0GbnYl1JR8pML6LKwYAvlUHORIPfS5zhRIUdxLPNs8JjlDr9z_BBdgAm-v-Njo4Lr0C9c3zNfqUdoyu3J53FVDwiymyjliadAoytAC5LQ5y9Dw0nGc-zuDfGWi4FN0C7B1wfH9koMTZ1JV5QXWUNWKXqj4AkPqOIvWY5_vIS_a5oWNrb3XikWJMoRyC3m1ZkpL_P8sb_V3XahCMj1mXUymIPdtmtZTNkv8WxLjVOrMxt0qjfgQZp-lWBgo8BvpA5SqEMQxA8myzO2FF-lvbe70ziDOXS9_KUaA2kMpt7C77ad_yiPgIsWj9rP77NxlbqTXt5aLVW7vDNErtSAdLZfHbd5KuIf1X2AyryEUi7sedrkp_tWeNssZ0VGQLNDQ9NsPpdX7R99yeSN7TParzZ50sZ_wlP3Po9hHOkliudvLkcPLDs_ydpJWdtJ1QEsiLnWTYF87MC1GtHNGQ3U59hV28UEJqiMYiNGA1ixtNqmJx4w=s200-no)")
   $("#oSelection img").css("border", "none")
   $("#blob").css("border","2px solid black")
 });
 
 $("#rose").click(function(){
- oName = 'Peony'; document.body.style.setProperty("--naught-image", "url(https://4.bp.blogspot.com/-P6SkuiWNn58/V00qW7I5bvI/AAAAAAABfdg/yCe_uz3S65kq0K4MagI4DKe2md1E8M7LACLcB/s200/peony-flower-animation-gif-clr.gif)")
+ oName = 'Peony'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/WIGVdVRYkA56G-AcQFwLxMQ-tHXKo8XOotRF25VoLNzYQi1jwHCGfGIaDP4HkzlY8IZhZ2rDcL3fQ6UR5cWpGpOWxfZvqnYK9UDsUs_U4Fuh0JV9NB-k_xAXytx_UIqpU880Awwj6DkrNqq3K7A_wWKfscuV3dOWr6cGme7Gh3-s6xZ0_BwgpfTHMvAi5py2hwDZd50Q-WCr2Sl0ZZnOH5iI3XsZqAHXZBAdN9xIrznIVsbvxwJREB0SpT1jOaf6blLQm3TIlfKwyDoVid8U-szmZQZ5z1t9Vuf56PaFV_epUnGvAl2DDW3ZsOyq0sd3QJtIleAC_M6roCLGyNJSNv_XUsyU8YzH8LYszW1atNX5AFP9UFEiIhnlm-Lyvt552KiqzEwnNewf5Zi_zbtHMIqQsMkwYuuAUQ-VmzwjwfB4gOOAnI6GioM6HrvIc0n7VweFQaCL7U-V56Xm9jS1Y0T0HrxeL6M3BgxnjnfK15nEQvTn2Mg2b-Pxj0ykqs23wCVNfwMARXhWSQhm2EMrScaaOvsZLyVrYADBT_wjbqUD4Lq2B3--PVOVFzgWQnaQBR7WNpIO6KPl6l6F9ZwTFR-DXduHWsR-eKJxJLaecWyBlQIykF173HajgrUJXtOhuCJoOh39fVLsJjPVlxcMCzFonfAsqgjHJw=w200-h199-no)")
   $("#oSelection img").css("border", "none")
   $("#rose").css("border","2px solid black")
 });
 
 $("#lotr").click(function(){
- oName = "The One Ring"; document.body.style.setProperty("--naught-image", "url(http://vignette1.wikia.nocookie.net/lotr/images/1/1d/One_ring_transparent.png/revision/latest?cb=20120830130253)")
+ oName = "The One Ring"; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/7ejb1f7U-70kQzuEBaRRqDBjPyTNlvHTalH1A4BbJ4aje7wIKrihpA1IMHyCsnlaGDpyFQxvcAQUzSNhghOqTeeOsP0KaHHmkiMb7vzer7KMkioZMFt4RRIx1FaUjiIm5XmzqK9dngyhhng69gD98ESXlaTuZcdi14Mn_NuR0L22SNk8hoC-YQzFY1OUcqbDFE97AKuQwxBVNdonLMU6tC7kqZE4fVts_BowB9DlR36gXUCxWYcd71ihORF2lZUY6vLyLpCuNw8kfc5dBM-NSDwd7o7PSQoGn0SS9jw-YtrYznbUae2TYF2CUUUCCmM7ADzfknfQcat-dIMIjzo_HV_Ud4HEh9wbJ6W55GRCyyGd4hU8479_mpBvmhvMpWjlspuuB3X7Um8zgx9khzgpZ5Qe9k0KWny0-9Jo6ZCP-FOeJ7HpMeJN2WgLMQwZ0_HRuGVbFChfue7DJAR_Z--XunJTqWF8vvoOSVDCg19MV6lUOrLj9seqsnRoyibHNZ6sB2RJUU2wOvJkJEq8PBSxcYarNcUR0M_Ck0c_Iz_gcT7_O6B5SymtmfrrgW9kUV5dsPJxHrawyp3K7CHhL9jdh1qy2GI7tzd3DTHKZnIk_zPXV8c01aY2GWp7EK2U2jBbLGyaDRglxj5ZAOlaWYzCUTxC4t4_Nczm8g=w200-h173-no)")
   $("#oSelection img").css("border", "none")
   $("#lotr").css("border","2px solid black")
 });
@@ -286,26 +286,26 @@ $("#orb").click(function(){
   $("#orb").css("border","2px solid black")
 });
 $("#donut").click(function(){
- oName = 'Donuts'; document.body.style.setProperty("--naught-image", "url(https://33.media.tumblr.com/007d4c735f373784f1f72084fc8f1d73/tumblr_n085t5GHHj1s6294bo1_400.gif)")
+ oName = 'Donuts'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/uEHlT_UXL_xu2d00VX0TKUeZDgkAkm4dhLiRcc0LxlO71aWEF4ZZtkHbBWsdwp0kVgt2VUhFMfWII2p9efDMaLe2MLWEiKa0u7t3CjHS7iZJwBhXtDeVFi0AAHvLUPh1uxDYo2BJCOxQ8MK64iRWc3RYGs5TS8Jk67i-Ib1vZu0rf_0swiRwDE6prTw138FaFVNu9fCD707qzoBJLGj_lVrlKv0WX1OXddrfpK547F3vrFa5jLOzNKNsGCcuTxsLidk8sx6o1eIirc_fpN8H2qk8IprvT2R1JbWo0df19xnbvmyCryC5uRgzv5ls52AtiUlRuxgDDOemtgOB0zntVUaU69KpuXRB2rzf9oQLyncO8mRZlueZcF91wCDGNm4ZJplYXGKVP8v09Xdjwjco-JvhJE3cBz_gCjk-3zDHCZlbZIzoDWVYuHiK15tfK_TJqM-DrRNuFNVNaGcqu6bQE39xp55QDnQl408C5UebRBFnDClrwWfQs0ZpEpFoQYmtb1NyS7cmTNYnJHTiKfphEG31C1TREQLSLwq_l88MdnVsoWXnyBWxwCdd3JfS8-wlOWmsXFUlvv-Qs9O55kjw2lmPk0G9Y3savJnGL_5cMJkSK7RXIUTbRH3QSWQlqcOyV1_JtsBbTqr11kNRtFAfzkJ2ojuW9YtxVg=s400-no)")
   $("#oSelection img").css("border", "none")
   $("#donut").css("border","2px solid black")
 });
 $("#record").click(function(){
- oName = 'Record'; document.body.style.setProperty("--naught-image", "url(http://www.50thirdand3rd.com/wp-content/uploads/2014/08/photo.png)")
+ oName = 'Record'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/NKgBI0vtenDvMMZ8Gl7KUD1FHjmXg7rWfHBetg9D7ViTM8GQGtFZXYJvSMBBUDPp1Z4MlGmXX7svSPOTn0vZztKFV8wgC9HucloJluKnkQInBPj0CnK9jI6e01OpfniDVV7wrjGHt0xhOzdfqqnKXt2to-y7D5nC24-k03uiKXKgI1D4iDWnV-7eAIEQs2UggoSZTuaDZEsFCn1oV8AfBr2MWCEj_UFedG_qG9WGbKPIi0W9XRprMPNajurR3bkNbN7-POV_33dY274wTtl3phX5pOIerpUwBqzrFp0wnqRbXqFt471sKyjkUGu4KzS9Etpcj_dIirxnudCkej1CnMw_ODLQcdm7OmcL24SNDmBQzzQ9X-PDWgcDgIzkPaKTlVyRZqPHd1vUjmYu4PMhlWwp4i8X1hm0RX2m7FcNDgZNDwhsUksdkLCS1RzDoccyIqyA2BqO2H4IdrcEfyZ6361JatkpKitcBjyzM4hUet6IcYrqSyeRPqz29J28lADI6gVXq3EDuKImLR30_nPp879e-K9bY_3EZuXgAwcospqemUuGFgNi3H5v0OKDHt7S24xF80lPZZRnBOAXjZXDIq4QFStF_P87FIyopT5oqJyLAo49fS39yBHy3NWpFP-ywvhCfRd2Kdvx0f-9piCqP-FxAE9x-ya1Ag=w395-h400-no)")
   $("#oSelection img").css("border", "none")
   $("#record").css("border","2px solid black")
 });
 $("#woodo").click(function(){
- oName = "Wood O"; document.body.style.setProperty("--naught-image", "url(https://1.bp.blogspot.com/-wQoPsgPVS7U/Tk_8IfV8lpI/AAAAAAAACJE/DryLcVByPTk/s320/1Capital-Letter-O-Wood.png)")
+ oName = "Wood O"; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/L3KwzsbLrIjnrWXkvLnnDUfbxuSR9isukty2EcL3_qlqJG-b_opiKQM_2lkf_sQci7YyjpRwYtuxKhW2sp4sZ6IO8LMQyBEckv9RDKtW_CQI2kfWS6KcoFGHpzytuCpKmEk_GN5Clq2aXRR6lmnNCl89Ra2oQm1hpdr0FBqCy8AOLo7AN-ONSAQlsDyWw2GpC1nevtGa7ywYKXhOqdoJXyQAXwu56OTg9LQqpJ5nl60VAi7BsnJQwMU60naZ4TpFSimEcmMztcNaQfeioH7fVOcHGYR2x9BNFdlpAHo2f8RoXS2G7Jo6ytxqeIM4Eshbc7ZwS3En4mGb4dhrraMsRL8A3KpEELNxRgPJCZS68i_wWX2IppSWwaezLBpNfeZhfhwtTb5GLCgT_4oMFZeb0SEWpr8bVqxOACyHJV0t98aIJ_dw-okWjIqrecAPNlyy1n2uWUHyZXAuDeyJIsqSLjTBpPA1li0rnwEVVYklzUNDtpmSBoJNO9tXZPuSpiq3Jg1twmcwZTX0Fr286C7ud_D-BbTsUYNRi19o9GRfUnIyWKM1i6rSQSnPM1-np57-LGSHmXgnTKd0vSApSLZwoUx0t5gr4adOmkbA7MKj9qTMT1nTOFpfGBcCttw8IWWOnaSrg2x2lhu_aubkMeL0JVcn22rT8a3ZUw=s320-no)")
   $("#oSelection img").css("border", "none")
   $("#woodo").css("border","2px solid black")
 });
 $("#shield").click(function(){
- oName = 'Shield'; document.body.style.setProperty("--naught-image", "url(http://www.freepngimg.com/thumb/shield/20-old-shield-png-image-picture-download-thumb.png)")
+ oName = 'Shield'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/ZKndUUx2h7S7mo2bY0syuY3XVzgyAJXwyQWpBU6c6Hku2HfiT3sUasdvDDfNT6U9ZiJQFk18PXGCNqaWXHaVhKzjvfkV5zpLtoLuI53RDQ0rwURA5Ul6Z_tuI8nMY-GD7BdMVLiazbIQQ0SPfK2PHHpUwA2EvpXx85jdP08Pt83X6N0kpjy5b9WKk472LcWaEOCXfhyJe9lfJamjDIdgZ_P8F4xaScN-9wm8MjqGHVjg7-SExu0YtestXf5AcSLusHYNzX48uMcE_sdMqPcnBj2mjEeY2pUB2Z9bE9nBp27bjR28s3j8fTPZDJsFGKSdsq_z_mde8_QLBVaEuA1P_wH44Sx1tkYuPIvN4YKVGyPw3x6ZzHpq9I5sdNiAnsvlUs_6vkfKEu7QT46yozPMpjbs2ky9NS1P6XpZi4wW6eaZCGMwweJ0mt9taznkFiNeROjFP4L_T4iihpH74PRdj90s24SDbm4HJyclMjCk7Ock9iIG1XU4_ZE52MVyybUB7h3RaVf9ACqtIpf0lg2kw_p653znXJq3sYvuzZ40lOePnSd1vHvES8QP5CiphnLq8KMR__qjmtwFOKkoPXN5fvM51eVoPY3RQUeq6HqddRrwMT0h4YaQPjZ5gmSTdT8cee51n3tlb3umOGP_tJ19Q5uFEHYyWoHCKQ=s200-no)")
   $("#oSelection img").css("border", "none")
   $("#shield").css("border","2px solid black")
 });$("#space").click(function(){ oName = 'Gondola'
-  document.body.style.setProperty("--naught-image", "url(https://upload.wikimedia.org/wikipedia/en/4/40/O_logo.png)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/GTzl3P8Il1r6E_ND7gdW9LIrwOkrREpaR-a5-mD_OTWkEb4zbcny53aLTse0-ARsUJcePLdursL1QjfGt_U4pu6OJFzFP72NnwOoXEaHo9IylwueTEiRUZcIr49fSspH7N8NaKqSR9ynyTtLnJVYS3h4BSO5d-nhmVWty4dlfUKkc1ER1KRBrFI-jeuoW-h_Edn1RjGvZvV0y6Ns_ytmxbGeB1M_1s0NqcYNpvROdmEcSGDpo3Fifd9tfJTuhmJsCLb7oFHqwpWJvQZ4dXz12mgLsERxddoe8qKT_pZVpIIVloX50g1JBcsPMSX_Q0lvrTOPqyFsPTFnsjL5h3lpHHxa9K6rqSSYDNLIOh25j5Z3d04j8MJfLHQvvYxNxf36BFDCTZCYNwOv1pYBn41Jp14P-qZzl_DppwirsuzrfpTLAzHB6qM4UTHmcfsJ5CyoumAkcfJYQdUzEaa8XCfqvL6aX-cRS-L-VYZD_HSz9BqlgeTT2PJXSpTNZNRz1mvM_4hxQnPkgUl9slw5e4pXsBSUr7QQrzUSuSpdMH9zbs9yPoz5lPlO5iUrVo9cBZbd-izLluudhJbZIddtBBWrLANXaXJ-ZzCfPEFPxbjsatQ9Xe0aOwin1tIAynYlG9kG8PWfnEARoJteuNJSL9kBWtalgtqJ0ko9Nw=w257-h274-no)")
   $("#oSelection img").css("border", "none")
   $("#space").css("border","2px solid black")
 });$("#happy").click(function(){oName = 'Tea Party'
@@ -317,21 +317,21 @@ $("#shield").click(function(){
   $("#oSelection img").css("border", "none")
   $("#stars").css("border","2px solid black")
 });$("#glitter").click(function(){ oName = 'Pentagram'
-  document.body.style.setProperty("--naught-image", "url(https://68.media.tumblr.com/213d75c22e19a52fd46db4d23b10788f/tumblr_nxysjeiIbZ1ubiseso1_500.gif)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/lurbBGWq1uIbvUWo1BXQhnlcGpcb3-sgXhsfN4-T-JiABwVe9lUiiTAeX0VYK4Yi-d0FT3c9LfMJYShrWDb0KbFSYNeXIWtoT5DS8XVVvtpp-aRdhSiunmo1ArJuKdcRCsvErTJUk6eNSIMjg5Qz-8LFQS85TC4YoIQFcVwah2tBkxFhCqCf2FsO_NzpCSYNXNqrQ3HKlXAClZpA8hUNUYzlmEpKDxVHKCfPBxj29GFWbWWASjlf-Je-0dKevvoRo3X2OiGEEdPma18lebQg5qBuQwPpGdM-ntQ6ay6ZxOAlev7fndelMnUxpTJIIREH0Dkog-8mc7tUtjuK9c8NUGTSFmCNVO4Ex-csdZOAAdOG0Wnvj98vncoqA7_jZyUVbFo5Y8l1IypczaXdYArBT0pVk9WNacOhXUDi5iPMPuc2X8rOgHZo_rits8Js1KFPfwS54oojZ863hSk7BfzBDVuhfqjNk_QdM_xEMKUfwEh0-OPj3LtwXYSnAVxO8ZuaTfSBBdF6r3Xzw32V27n0Pg9Ah7GD9Lq3eSuKUexu3YJICXXYTjng2XRNm4q2Kf6euE4opOfj9IWKWBpQWH-cL-QAZ3Cp3E-a_BKvGv-kLbFPza9DdmoT570Tow73W0vVPDit3uA3Q0NTIQ_81sAsLUfLEm3lqQNVqQ=s500-no)")
   $("#oSelection img").css("border", "none")
   $("#glitter").css("border","2px solid black")
 });
 $("#fall").click(function(){
- oName =  'Fall'; document.body.style.setProperty("--naught-image", "url(http://etc.usf.edu/presentations/extras/letters/theme_alphabets/09/25/O-400.png)")
+ oName =  'Fall'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/UOp89RUOqI_SZ04vYPIeNDrHzQG3jLIQLMSKWwUun1_ELoW3PjBTbfXndIlDXauwYYXRxKPGJHr_61OL7F9q4JdH90i5wNgtOTHPLA7NUrOhiyy0UAccFzq5f0jsHSW2CAFL5ShHvcedJ-QmZY-XaCCvxazwgLtpgysDuef98-I0S_W_z0QZfYc_oVs8kqWqnx1o1xM0po3mXWk6lzpxVASevt8IK_52sUHIDAQND4HIbOI26TnCxaXmOafxttvZqPAGBG-OZYoNUOXBLKk1sOilLosknb1UrcJoEw8Ff2QkRn3FQrpLKWfsoAybb7cQ02DIBDkZr8JbnUk_-kaf8fkpUh1Wlm1fH1MzDZh8NNQN5gRta9cg0cz56immB9bVFtlHrZyLmHpsaCff-DUFQFdUvqmJER982YzX5jGGuYmh6-VUTXW1mb78kQp-InSeeKAJ2aG2hrW-J0Rwm9iP1Ti3l1FRLEQPP_3O0PQGa-5Ks9qIu0KpkH0Q9zp492_UAR9jjM_L8r85g8n28mwOjUw4cyehb_FoL1ILLZp-AHzHTFftXJ1fXKCWKBoq2v6CGCm0Wpd30HIS4VdcdSiAG5QcMNn0iMy2gSgMHwnGuN_NobIzu9brwgdVT5V5wQcd47E6lMDOlKjqCeUcfhI1LPtV_9K7xzA2bQ=w493-h486-no)")
   $("#oSelection img").css("border", "none")
   $("#fall").css("border","2px solid black")
 });
 $("#usa").click(function(){
- oName = 'Merica'; document.body.style.setProperty("--naught-image", "url(https://2.bp.blogspot.com/-pw-wogEnbTw/U25btTCea_I/AAAAAAACco0/-exmHgQLX50/s1600/GE-CAPITAL-LETTER-O.png)")
+ oName = 'Merica'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/Yocezxsy-KYtsh7oI9MVVhpToJokvPnmATsy1jmphHml7D4FNEwE69-bVKKLb_1yNEEAgiWYMYu__9ele-o3g3OIT6S1_bTsBgWvdJMEtyVaExhkC-LO-80z7Pwsammee4syUp0tTHgqz3WVTaJkYtvpGjON_-Zf7k3YtSzx_-KVBqh5Zmc2GzxXp0EQwcS0oVrwKEHvHT7YTe-fWxuDKZDtQFyybyT8pL4pC_Dl_I1XXzHtKYlY0QsT5tp7pzS8_KXanszZ78Ka6xhZiZ14AxKpX6Z6dsvqd5zo5ShIlfZURZjTB9OgHKpLoK8Z7BEVfZ6XO34YMUdnKnk70vypZ66adM8g5abWAt4Q9BQkvk2UK3EAAqmkfcrljAU26qdiz07pvq56nXGWiIsaOawEttyyXPfvcUTXqStZcptmuSefTRTkBfIOnyFAupGYq4j7Xe_pEHCiwosvUxE_RO1O1kNDIR1lE6N9ftP7GKPMaKsjy33jAG4qSZTkHrhWnwwdrqblvzqemTEQP2_B5xpnaHletkl4MpyT_2lsRMzsiJjO6PREhkIY9rMF-vt8C9UbbGcCuQfsG0xgcE8TvAMAjKDBBE6qz8DxhwBmbJbl7bodfS_bLqEj6BiSg-6MwyMv1R34STKDuKnkdIKA3bgm-Q9ybovhYHJXWw=s300-no)")
   $("#oSelection img").css("border", "none")
   $("#usa").css("border","2px solid black")
 });$("#obama").click(function(){oName = "Obama";
-  document.body.style.setProperty("--naught-image", "url(http://vignette2.wikia.nocookie.net/logopedia/images/9/98/Obama_O.png/revision/latest?cb=20100724092050)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/wQpBAFVKoVNNgiO07TP8kcdcQv32oiGkqQt51mv0NF5eaZYw6v56k38nro3kJdnqQzzeFY6yqXDd_YE9qckWYiVC4fSEa9U53NhuCpmZfXK8IVYVF0gjVlV3eQqOKCOV9aoVhKnqL5OaxjTROBtfUjN5sX_vDxwDkfcK4ghxInhuIprn0meuqv6W_AdhQxk9qMnqbGcX8tJRq2trQH7tg1pFGD1XxP9Dc5545liZskRi_roweT31a5tVN0rNAP3g1g5R4tZ3GyTPgYtaWss43Y48tkJlD5aAdK6Z1DX-pvapBjoaSOi2IcdMW41-LDZKiHr4KNqrm1ShQ8N5mMTr7yeWr0q0xqqH42IEaQtGV1TTK76jTod5wUheBQ7HPOIGb-du1nPEI0IX3OCL-qHBy59XF_2tqqf_P8y5p_ieL8kdwLcM_XeeW07k5ZzDDWudHPNdX07Au7KvyxcPqEI4G7-MnCs8fWYbAwwnqyUv_ncH2j2izw0KKghk001MBCZbl-AFK--XKV6pBN-uljLizynyV1F1oK_VwrB3HcuEbYB91GuWewtK8yVaP8acgIMZO8Kg8m9WLa3G_JqofeXm_LP86GrH15YUgjziPM9V2tmLq27nbPqsUqgoV-z7TJsDDBFWS9WY741jvE6_JkFwJunGuxUSFgoB1A=s616-no)")
   $("#oSelection img").css("border", "none")
   $("#obama").css("border","2px solid black")
 });$("#hands").click(function(){oName = 'Orchid';
@@ -340,22 +340,22 @@ $("#usa").click(function(){
   $("#hands").css("border","2px solid black")
 });
 $("#roses").click(function(){oName = 'Roses';
-  document.body.style.setProperty("--naught-image", "url(https://3.bp.blogspot.com/-8lS1YthduYw/TntZGFaZccI/AAAAAAAADqk/nSlrMJDpRx4/s1600/CAPITAL-LETTER-O.png)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/hoRVcmmoJ-pK-Oj1Qd67eqn6BsAE173VmGESGcmV2EYuQpkAAQUmlBs8YavLCMhAh84-aIO8tzmpcKjzuTJtAZqvrR3jE2CU-9TOXzrSDWitkiqjJVHFUId5xQ-XDv-ZjHMGmmBxLG6pgEhYFx-8B3MDdu8HUsgOp5ELMwDaSStU3ALGqzXNiPfleQOxC10tOrc52Rmo9HCEq-43aXAOIkjMdCTYYfQLej2bZ-vOOF27EbShNaak_nez8j5AwEaLSdYl19oUsrClT51nbqCuK_17SCd37HTr5krjSoQ9P9_zIdgtAMCaM01xqB0VxBUD9-AzCgx-gJ9RdUUJvelFgEqGYENZk5hSOcqlwqDB57of69bGYrdcvyLN7rCoGsF-QTFIK0qfiKH7DHE07hAObgBDCNe_kfFSfhMPcMW6ROpyKaNgiLT5KqUtVmBy12L88O2TimRseEIe28vtvxdIHvSaptdgWGgadG4_oGe-8l_oZsLQAPIupbJZ8tL_BXJETjuN8HlbHPU2cHodBrq5vb1LkhcKQZf8qK3niHnETNvaQ7tKBLUZA2KLEcUJ11Osy4cr_ASc-pdcYA6s-roZt6sMlz-UCCJO7kKg8Uf7CycvWyTrXHpMHDLnCcH79Zt700dBSbumuYjhhUnHi8ZCitF_COLCRdddvQ=s300-no)")
   $("#oSelection img").css("border", "none")
   $("#roses").css("border","2px solid black")
 });
 $("#jelly").click(function(){oName = 'Jelly Bean';
-  document.body.style.setProperty("--naught-image", "url(https://3.bp.blogspot.com/-XElM35ERl-I/Tn6ZupWXEhI/AAAAAAAAAC4/hexEpV2YTvM/s320/png-JB-Capital-Letter-O.png)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/Gycf538O7MAWlZq3TEjpmLE7GXXbXcwfrJ2lQ6ZVIInWEtXmGDTGYzXRg-rqKFgoELo_2OUh6Q8W1ggKsffbKcBlcfy_n_OqYZidW9maYUq76ASMF99MRnk6jEc0kD_UkCa3jurfzJLj3w0O7SI2VbxkYdlxvM3REKKDMZoOK_Mv2EwoKiZphvPOKX1CKO4Es994EM876RXZm4wVry7966sRTpQ-noYCMUtX0boEL8dNszQBOLyjw7nZagYQhPPq1t8Bq4IrY7j77UJqQwPXXzNlUM5GrXfICibf0ZMcwMRJJMV672O7cJJ2BqzRWSzje8_pCIWDw8EPv5eDXuCTFXf94oiyRCMrjKzd-g3MCjBKolhJ8a1uPFogH5ZZsWg7HQxwBL6P1aUhfY5bUE2HZ8YbALQxI8x4inVt75tW5CGQWcJHG7g6qk731NsxXXsQ86ij1aCDq6vC-qqrKiNp36clEKhnZdHgbNZsrA7Cp99O-Fi_5q4KkRDK7bGZC2Aj8dXcWAtkLWzOIffYTpqubbokzwXBeoyUy-d60vBU-dY5hVV3T28QS65VsjDOXF_b2jAwlagKu9OhDcmMDQkHYYzEIt31UrRWBCbVsVKoSkJvDIHzgFqMHxtGUxxZ-lBL22WlghlZcF6ObmxmzelcIwhOsIvQdgVisQ=w320-h301-no)")
   $("#oSelection img").css("border", "none")
   $("#jelly").css("border","2px solid black")
 });
 $("#sail").click(function(){oName = 'Lifesaver';
-  document.body.style.setProperty("--naught-image", "url(http://images.clipartpanda.com/lifesaver-clipart-lifesaver-clip-art1.png)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/7tl58fgRwAjaZiOT1X21ci001CkfUTZXHetneutjQ2vOdyFvoS8JhCG7hiOihArrPymTu7JOL3Hhp9pq7dYWgELenwkb5mXdBAedBdaMziaU7oIMRUAjSdVsNinBxoQXbOtx2hjnLegfQKqzWESCY_AnZhjY7f2K-sfO5TmNVM9LiqhLGCHwXblZ6AMiJE917rs4rIYHBVGahQzq4CvHlacEdRHA_WXm-E8mOFuiliMprgwObtPBIr-OzpYauvDm8Xs77VYWHjCo8ZLfklH6-qzHKO2WNcI-bzuIFA3O-pydnHQHSfPng6QylSzKIuisa_Qc75Le8C-ZjshPraUGFOE-36P5sxStj0njQ_ZU06b7LEt7yvDdm2JlaWeBAwTLYw-fqa03vFOSJCU4w3C0mtr8UE3IZDLwamVX6NbxAiy9K-Dt0sqlb6hmxzGaFdRNCMNQMXr-364qlqTAORoxzVQiyXPOSitBrmNg5zLYJsj7HeSg9dQ1Q8sCBbenbVs1pV2FlfuDN0k6hRSvEytJzFBWj1pl-MP-3cfV7eBNxrZT7DIHcHWXdTm0Mq5V6op31Qe1CbjeGtcTLopquUcDRiKE4T6-clk6QX2y7O_82HvRTVMZcDlw4_EonMGDhgO6jun4-dN7C6b_cPsoKmKjuWjAO0VVZIGMDg=s304-no)")
   $("#oSelection img").css("border", "none")
   $("#sail").css("border","2px solid black")
 });
 $("#lifesaver").click(function(){oName = 'Candy';
-  document.body.style.setProperty("--naught-image", "url(http://www.life-savers.com/www/img/bg_objects/hard_candies_right_small.png)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/sVv1-HRV5U8PIoZLN9cfep01-_y49OhEYoQdtaQx66lJiBundBSbbsLOdrEFDram1tdAbTobLLFf-a-6QPYDj3FUukU2krg2y_i7GM9L_MvLtbouR5302iX0VZ6Mj12ui-34pmSa5FmGKep0A-J-FbAxa2q7AYg8AylBOotfYzbaspg_FZ3V8jzMmVFo2bnEN9nxHhdGxMTG2cBIDDsLhNPuEf7FFIIGit3_fOxQ6b8RRbHvYDmOby332doIIBFCmr4s-1gfyG24y09MtgJ0ZOE6Twe1BNxUydpW76wRYRRw-3FL1EnO-KFzdMvnk_QzM6ip2loT1r2HHUUdffUmPgEMIeBUd-VOaeJy_XusZaXcpQP9Mwpjj6QSu3yGl8BwAYYD0FmlERsIQB9xxYWOOWsYzPjbXTohbEqf0YDDO8uxRKGmtc3VwXWsBmDlLe1EyxKf6i9AyVA_6W4X-WsdFsFvrHg6tBzOQB5djSXnqMJpfdWfCvIBzFROxPlSfOnVH5FMXFcKNT9MMYqmhZVbTjIXrLV3Dl9InMRqyt04iFNjl_LvNszn2oWXTnXLEJPMwTXN4Tfqlh7PmayJkhzSV1ZBORrFrW7DMkRMZpZMqBsCBzRVjZN0AIlC0_MaFUFC1Hlr0UCJ8Z5bRYh8hEI5Ik_-V83F4Irrew=w150-h156-no)")
   $("#oSelection img").css("border", "none")
   $("#lifesaver").css("border","2px solid black")
 });
@@ -365,7 +365,7 @@ $("#pepper").click(function(){
   $("#pepper").css("border","2px solid black")
 });
 $("#bagel").click(function(){
- oName = 'Bagel'; document.body.style.setProperty("--naught-image", "url(http://icongal.com/gallery/image/18621/donut.png)")
+ oName = 'Bagel'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/0t4IwslPaL9tRr_xgutCXqfphw99ZtkV8dMItLkLceiXfL_qH0NLg5u6YYggYDc3omjK4BxYeNEEGAa1qOXkQrLr9LnbPTuv0nj0lGx6vbED43Vh028PTozunYOevfMOxSmmpgmGIb7Z1KLaafBkoex-87osQ7rly2PQ1yKSQshCpz-kf13I-iMrRPcG9uJBUCivGMsiiU0gzg1HBp89yDLL3jZan8jk7biNf3SNqz7Ymd4KJtUOyBP4jNp75fPOdn5tec_afyKjJCdMVB7s7GMk1E72e1ID7u5Krm3jeFU1O5H2wrO8Jysb7EeAl2xILoqSA9PH9QVOFDqXlijCjv1ONaPygbWSSqgm7Yp50wI_vTyOUbPH0VA2c36VDQB5-WArAZ2sBB3UF9FzP1jMF4nNjY7ZEcc-a4VwY7JvdcsWVg4JyL-pBcLN_7s_CMN6Yv9JnIJ7jR3xlp74ymM4cg5B0LTTFUBqrvsJ3AUW9moHjWi4mMSQ8T5Z2zIX3VMPIXYfMHNGLBMyrGCQ3Rp1ZGsIXmTZdYIfKcJH4hRlD9u3DRHMqb-EI07GdrZpevZAFbgyW2jv_VRoS2MRlBdeVDJFbBp6QlZYLXWUOFGJjp--nJx1HPgFNe-_WvWhe6Q_jeoWK85IF6Mzb_p5RvODQn5VBGB017xS5Q=s311-no)")
   $("#oSelection img").css("border", "none")
   $("#bagel").css("border","2px solid black")
 });
