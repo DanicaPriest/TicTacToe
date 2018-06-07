@@ -313,7 +313,7 @@ $("#shield").click(function(){
   $("#oSelection img").css("border", "none")
   $("#happy").css("border","2px solid black")
 });$("#stars").click(function(){oName =  'Stars'
-  document.body.style.setProperty("--naught-image", "url(http://etc.usf.edu/presentations/extras/letters/theme_alphabets/23/25/O-300.png)")
+  document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/xmxUXlpe3w-ezOcXnQ525e3PbyPfUrVSISP9w4E9yjfvflmXxXgag5xaqQlav2PT9T4D8gV7bnJ4fQd9AoYuEiBEUY8VLW8yFJXIF-sOGl4L9OFfgOHiR6yVFG-xOtHHTm3uQ5IvxqPWWDaJaWfEt5ulW8J45p_RKd_ruY6bLzSkNU67qPFv3tsB_N3OgXXuSn8C8jX4IVKejJrYLPaTU65UMilLhOF4eeiiu_7lRukWwIk6mxWHAbqv8U_vHRAhtgkLgO1QFQyaVy3Qtndjfe3nAB9q4ZOetLHp9JTum2KdBUryqortkJsRbL9M_km5qsLDKsxw7z2ezIhLdagw5fL0YtOEsHHTYSGbmyFP5kZwMO2k7EMqXUJAtkQ4nz9WSUQcTJT6YcXz_TXptorn4TAYmOrzadB3uKHJf12u5SKUTiK8_sMBi59CIXVHtbBj-RR-Uwt4PBOhXBwmWoA2CiWkudZE2dVIxpe0bjXoFw9QLtkigI_914igcqbEKFuuAQR2zHbktS0jMUP5jHJcbwvWcD5EVhLdLx47M_nn2OdEGDxpcTprPOdyg0hb9cyBknIOrkMh1vsKdSfQV6ePR9GOH7D1Q_8SQY9y717OUIg5troKgHoQY-fP4ybyzU8nWp5PCpI16QFXMymIiqXlFqxtYMtN3B3OPw=w312-h309-no)")
   $("#oSelection img").css("border", "none")
   $("#stars").css("border","2px solid black")
 });$("#glitter").click(function(){ oName = 'Pentagram'
