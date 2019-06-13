@@ -147,8 +147,7 @@ img:hover, td:hover{
   background: none;
 }
 .modal-title{
-  color:black;
-  text-shadow: 4px 4px 10px  rgba(255,255,255,1), -4px -4px 10px  rgba(255,255,255,1);
+  color:white;
   font-size: 2em;
 }
 .modal-body{
