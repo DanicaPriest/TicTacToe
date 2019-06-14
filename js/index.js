@@ -1,3 +1,4 @@
+//global variables
 var freeSpaces = 9;
 var gameNum = 0;
 var player1Score = 0;
@@ -28,7 +29,7 @@ var naught = "https://media.giphy.com/media/eQc0a2uGQhhw4/giphy.gif";
   player1Turn = boolArr[ranNum]; $("#playerOptions").modal({backdrop: "static"});
    
     });
-
+//one player vs wo player game
 $("#twoPlayer").click(function(){
  twoPlayer = true;
  onePlayer = false; $("#playerNames").modal({backdrop:"static"});
@@ -38,12 +39,15 @@ $("#onePlayer").click(function(){
   twoPlayer= false;
   $("#playerName").modal({backdrop:"static"});
 });
+//back buttons
 $("#back1").click(function(){
   $("#playerOptions").modal({backdrop: "static"});
 });
 $("#back2").click(function(){
   $("#playerOptions").modal({backdrop: "static"});
 });
+
+//next buttons
 $("#next1").click(function(){
   if("cross" == $("input[name=xos]:checked").val()){
     player1Cross = true;
@@ -56,7 +60,7 @@ $("#next1").click(function(){
     player2Name = oName;
   }
  
-  
+ 
   $("#xSelection").modal({backdrop: "static"});
 });
 $("#next2").click(function(){
@@ -82,6 +86,8 @@ $("#next2").click(function(){
   
   }
 });
+
+//game difficulty setting
 $("#easy").click(function(){
   easyGame= true;
   hardGame = false;
@@ -103,6 +109,7 @@ $("#hard").click(function(){
   $("#playerName button").css("border", "2px outset rgba(225, 225, 225, 0.5)")
   $("#hard").css("border", "3px solid black")
 })
+ //x image selection
 $("#leftShark").click(function(){  xName = "Left Shark";
 $("#xSelection img").css("border", "none"); document.body.style.setProperty("--cross-image", "url(https://lh3.googleusercontent.com/xM5Jb4DFpZt48NvATNtITkReOVvdeWmoA6DqrdbbAjV_0WJyFG9Gy0oolo0p7e7rtgnJCRcfTI_2CtAPc18DD5VLsTORBIptqPdg7A69nTmFB-6GdiSSK3i6zCWWKw4CSqRkkdZRt2dvR4wFl7jBKj0AbV9VNQWiDwZlLAEjtEKDjdH5bDAxxwl1Y-cLdoSH-fiHtNJGD_NoilBvdwexb14Q67-pk5IqP2s0viguG6bM9ooCKrIep8YUZ_P7fdNAs0znt_Rx-4fYyVeR5IyZ-JwNF6XlkaCWYdNz_OmbwtWCFrTPgP_iGssShirnzY9aJQ6Fl4Ywv5T9Mx-Lo1-CH8HKN7q9xphVsqkBZpns7idCnVhGuXzrp4aGY5H_y-1DDLvRmJhiJa-FguUMxbDA8Jp0ZLaY3XInO7sw-hBF4bCNlimN6imOwe2PD0yJjjkAO9WOHxEJmUW3PymJ49lGy5Pla6pRqNZZ3dXrRX3dn7AfWJXIJp9KAioWeVPumEBQhsRO3NJdAzkow6DvyMo2CAhXhO4LVdBI_6WafL_g2bNJn5YRco0RC3xVCuhhA_xfpLPu7pmo3OfVbklJu2h69n7mNUR6ziE7mQyfujgs=s300-no)"); $("#leftShark").css("border","2px solid black")
 });
@@ -233,6 +240,7 @@ $("#jellyb").click(function(){
   $("#xSelection img").css("border", "none")
   $("#jellyb").css("border","2px solid black")
 });
+//x selection back and next buttons
 $("#back3").click(function(){if(twoPlayer){
   $("#playerNames").modal({backdrop: "static"});}
                              else{
@@ -242,6 +250,8 @@ $("#back3").click(function(){if(twoPlayer){
 $("#next3").click(function(){
   $("#oSelection").modal({backdrop: "static"});
 });
+
+//O image selection
 $("#lsp").click(function(){
  oName = 'Lumpy Space Princess'; document.body.style.setProperty("--naught-image", "url(https://lh3.googleusercontent.com/eNMe6J3H5LZQwRIGbW6EpxKBxvcu5tt5LeuKGp-o3nW4dfsncRzdGR5fdxjl-3UNTAcI7MJeFt2v2YyjLdc3I_BVBQPMDVlLgrj6ymggNaCtPLSU24cb-0lxpSDEGEKhGinF5AcyAUjNAvOaqS3IkHBwwq1OgmJVvW514NxANMha4v-IbBWRk2EAiODJBSbqJ3Ua_tZCMkCakS0o0Z7gziWi7yfvla2UkBni8OttQMJ9k-2TUSrGpWFIhF50swque_IahiNmiORYhWfl615kjuPjnS-ozMHFpNIEngrM945AwqU6EyZLpUhHqQlstYm7Q0j1rKHXhqyX_z7DE9T0P4Z5tBtyHPjB73dE5Fek8vk-Zu6OYsmJAk6xoIkHfqLdiTT5ntFnsQHAP5wartjDJ4eMFR6ZPvIld5SALFSt3w8BaEPC-bpaYZ0LDVPQo1Ow2tKYMURXc12cJMndNnGsj3NoYGcs5wb9Qk1vdLNAbc0FGEGeQnmDMaD2i4Ra1xW10olM3Yb2mK4xBvUb--HHJBBhlZKxVfwwQWze2wBaaqsUscBYsWXWpBmjG5JU3l4QJ1ELSCY5LDGWFtTmO9o0s5GC3GVniqgd152hlMHCkYqCdwynM3EoVlS3-CLAZLtD9JteQF5XgjakzuS0QXVkeaLvtx1_j8ALsg=s480-no)")
   $("#oSelection img").css("border", "none")
@@ -379,9 +389,12 @@ $("#onion").click(function(){
   $("#oSelection img").css("border", "none")
   $("#onion").css("border","2px solid black")
 });
+//o selection back button
 $("#back4").click(function(){
                   $("#xSelection").modal({backdrop: "static"})
                   })
+				  
+//start game
 $("#twoPlayerStart").click(function(){
   if (onePlayer){
     if($("#oneplayername").val()== ""){if (player1Cross){player1Name = xName;}else{
@@ -409,6 +422,8 @@ $("#twoPlayerStart").click(function(){
       else{hardComputer()}
   }}
                       })
+					  
+//restart game button
  $("#restart").click(function(){
       $("#xTitle").html("Pick Your X:");
    $("#oTitle").html("Pick Your O:");
@@ -421,6 +436,8 @@ $("#twoPlayerStart").click(function(){
    $("#xSelection img").css("border", "none");
    
  });
+ 
+ //winning function
 function win(arr){
   
   var matches = [/[1-3]/g, /[4-6]/g, /[7-9]/g,/[147]/g, /[258]/g,/[369]/g, /[159]/g, /[357]/g] ;
@@ -433,7 +450,7 @@ function win(arr){
       return false}
          
 
- 
+ //game over function- clears current game data and board
 function gameOver(){
   freeSpaces = 9;
   gameNum++
@@ -448,6 +465,7 @@ for (i = 0; i < x.length; i++) {
  document.getElementById("gameNum").innerHTML = "Games Played: " + gameNum;
   document.getElementById("player1Score").innerHTML = player1Name + ": " + player1Score;
   document.getElementById("player2Score").innerHTML = player2Name + ": " + player2Score;
+  //starts new game
   if(onePlayer && !player1Turn){
     if (easyGame){
     easyComputer()}
@@ -456,6 +474,7 @@ for (i = 0; i < x.length; i++) {
   }
 };
 
+//game play function
 function makeMove (val){
   
  if ("cross" == document.getElementById(val).className || "naught" == document.getElementById(val).className ){}else{
@@ -488,7 +507,7 @@ function makeMove (val){
              player1Turn = true;       player2Arr.push(val);       
     }
   }}
-  
+  //game result modules
   if (win(player1Arr)){
     $("#winTitle").html(player1Name + " Won!")
      $("#winPic").css('background-image', 'url(https://az616578.vo.msecnd.net/files/2015/06/27/635710393452911256-1033540640_200.gif)');
@@ -520,6 +539,7 @@ function makeMove (val){
      {mediumComputer()} else{hardComputer()}
       }}
 }
+//easy game- computer moves are random 
 function easyComputer(){
   var played = player1Arr.concat(player2Arr);
   var free = [];
@@ -529,6 +549,7 @@ function easyComputer(){
   makeMove(rS)
   
 }
+//function to determine if a player has won
 function findWin (val){
   var free = [];
   var played = player1Arr.concat(player2Arr);
@@ -557,6 +578,8 @@ function findWin (val){
   
   return val
 }
+
+//hard game- computer follows a game pattern that makes it impossible for a player to win. tieing is the best outcome.
 function hardComputer(){
   var played = player1Arr.concat(player2Arr);
   var corners = ['g1', 'g3', 'g7', 'g9'];
@@ -614,6 +637,8 @@ else if (player1Arr.indexOf('g2') !== -1 || player1Arr.indexOf('g3') !== -1 || p
       
     makeMove(hS)
   }
+  
+  //meduim game- computer searches for a potenial win and always blocks it. Only way to win is to have 2 possible wins since both cannot be blocked.
 function mediumComputer(){
  var played = player2Arr.concat(player1Arr);
   var free = [];
