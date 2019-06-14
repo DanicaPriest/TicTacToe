@@ -510,7 +510,7 @@ function makeMove (val){
   //game result modules
   if (win(player1Arr)){
     $("#winTitle").html(player1Name + " Won!")
-     $("#winPic").css('background-image', 'url(https://az616578.vo.msecnd.net/files/2015/06/27/635710393452911256-1033540640_200.gif)');
+     $("#winPic").css('background-image', 'url(https://lh3.googleusercontent.com/tPwAMPNcbJg8LGzuok6rHEFM2NJUJNIWFOV3FE3B9tK3Hekeq0s-iIn7W53IWAcTv44AgRUsWQSpBVg1LJz6-jcxRbUEqIogl6KeH53sXSgmPXaCqjzE2mHoB16eqyB545i9gor_ZPZfsLyZlQZGRHeYesw2oSLXjmgUVrIVw6cuhg-zyL16dGRQTJrm5XOejR3o5n7okAqFOfS9VRoKdKeTNu-1AXzOXNGRKLPTSLnkeQ8WrUrMbzMAtY9Rfaupsc402wIEZvZyDXW0nkzntTr8FJUPF-piMnsiMyPP-F3WiVfbwdNNLG9wlH8AK4rsZ-I83ih4Wu2kr7BOsZQHMkEBmVT5-XnLlcHncg2dfRTrq_1yle7-6WTHiB8wFR7U9UbTn7yXP7qpf4FRwdgNU2auwwpqjisMdZn9S45mh2avjd6FXJkiTbISVXQh0PkaL-jZpgj-Qs0P_9t9pHf1x6qEyUb5LRHArjd6T4pFSmWGmSlsb0sIpNKKjyCUa5O-D0zalYUUl-ibaXVrp5-YgFZE3IWY1pxD-SteDyddaTiN4yN1XfWmbIMLWy6KB2WJ89lCSWjNdmngLAfxaF3JfJBjBNjO4elPD5JH8kQc4LO_yC1AjuPObnUIgjlwOwonhBcwgXcAs6iagdR9IV_NTW6hfFEFmWiU=w260-h208-no)');
              $("#winModal").modal({backdrop: true});
     player1Score++
     player1Turn = false;
@@ -518,7 +518,7 @@ function makeMove (val){
   }
    else if (win(player2Arr)){
     $("#winTitle").html(player2Name + " Won!")
-     $("#winPic").css('background-image', 'url(https://media2.giphy.com/media/l3q2R3KZC4G5j658s/200.gif)');
+     $("#winPic").css('background-image', 'url(https://lh3.googleusercontent.com/wXYyDoU_lJgSzfnWPVbkUasBA7M4dHEpuDik4qCUQmk59daqlV3JBU0bX2B5-iL0OibagHP4nmwPr1sTyBODQSQwUpWs-ygiu4KzHGpHpAM_7HSKZmB8-WlZxdiD2vvZ7SP33IJ9sb2aYQJPfw9d9VBFPSOgSBIfKxbem-JkzlVndHOYCgO28w-HnrL68TMg6MQbQa1FIrUHrIK9h9Z4XcChirAeRpqr_uja9fOBngQ4rQ7ln3aVLTRJd4Ru2b4Dqbub5qBkqjJzXrkc18ziQgmb0ZEx_F08YE2mnxRVcqZoH1APxP4dyg_oDwd2VJIz5sM-FMwX868bOFppIdMUUrhb090MgTFYURfds90-VNgKYNwXY62WEZdCZ5jxAYzUFg5ARB0e3Fy_zPTFdKZ5kVMxXFJwyoOku9SyquOKq6kgohWAHBAtWQoXFNQM8X1ScMBv7fVpx34CrlpJKHV3I3Qg6IKHawsZUa6bYe_lGKrv3-8vHhbqs2YP6NfUA6rTo-RsfIamR74EkZgOQNTzWtZY316lvYYibkJ4ikF8SM-aVnnEq9ON_gwWvTFoLj-FZ41LMTE2Pt0PFDtJcUxIdHYS42sI8Fyeg6q9Oi10xV9iavIynOo8zillE2tqxDeyws129mTXy4d9wk_rtkXPDFHuanDvu1U_=w300-h200-no)');
              $("#winModal").modal({backdrop: true});
     player2Score++
      player1Turn = true
@@ -527,7 +527,7 @@ function makeMove (val){
   
   else if (freeSpaces == 0){
     $("#winTitle").html("It's a Tie")
-     $("#winPic").css('background-image', 'url(http://media1.giphy.com/media/T7886I9hxE2RO/giphy.gif)');
+     $("#winPic").css('background-image', 'url(https://lh3.googleusercontent.com/sw4XSTXRzWBuUQ5MytFDCZEkayx3ecLL0Kwt4b90cRC4p-cjW4CQcsLmg34fIpKXAlhB3xM07N80bglmGNj9S2ebfs7w9SFC1r3ozvZLC0lf1b4buOWXI7VU-07FD8GfpfcLsp1t98Evebq624ZCj71o77nOrbOjp2cif2qMi1Jp8haD2La4ySB9_U7jzyJNxByoM3CEYqkf3hU8vw-Cn6cF2HBvgRpeuYTwXky6FsgSE1LQN9NvbCgeBrvYnwKLEaBMHhoF3jME_H-bKb8Kn9wb3cGj6eQqntL_kakSTvzx02lBHaZLHioFlh7_EvU4oHFTKESGJPf41obTkj7j7_B4mqiyuTHS_JYZXYV4lXoN2iIWNQy24mr875V-LHvaCzcyNshZKDVAKSskI62JbgzDybWpLCvlVzmLHgCcUny6cXDbBuD_UCDo0L70N1fSHsRW9I9clfgyFASOWvuuVr9fL9BsEgdo1GXeF4bf5M_fa0zgCOTxPFhSS6X-6zkfZ9OB0XLMxiagSpS-tY-rzGiDBO33re7-taK3X36wdMAaKMCgx_2c9NGkVqBncK-kgnDCJ4CgmeuizJppwSIl8aeXBotqHD3pgKxRDXGK9ZWWgVqDEeslwh7TIln-s9nWjMlK9mAiaSY1F1ujtq1p_A1GLsgnVR42=w460-h258-no)');
              $("#winModal").modal({backdrop: true});
     gameOver()
   }
