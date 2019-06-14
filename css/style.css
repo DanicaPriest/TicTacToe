@@ -31,6 +31,7 @@ body{
 }
 .back:hover, .next:hover{
   background: rgba(255, 255, 255, 0.1);
+  color:white;
 }
 #oContent{
   width:700px;
@@ -170,34 +171,11 @@ http://img.7te.org/images/570x363/pastel-galaxy-wallpaper-tumblr-lilac-pastel-cl
   
 }
 
-/*to do
 
-animation for player turn alerts
-design
-  board
-  background
   
 
 
 
 
 
-done-
-design
-   text
-   modals
-win animation
-computer player hard
-reset button
-  player turn after setting end
-choose cross/naught image
-decide player turn randomly
-computer player easy game
-leader scoreboard
-determine how to spot a win
-start settings- pick game options
-  done-1 vs 2 player
-  easy vs hard if 1 player
-  done-pick player names
-  xs or os
-computer player medium
+
